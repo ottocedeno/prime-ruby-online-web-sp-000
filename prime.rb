@@ -24,7 +24,9 @@ def method_name
 end
 
 def is_prime?(test_number)
-
+  if test_number % 2 == 0
+    false
+  end
 end
 
 # Benchmark.bm(27) do |bm|

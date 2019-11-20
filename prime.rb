@@ -31,7 +31,7 @@ def is_prime?(test_number)
   end
 end
 
-puts Benchmark.measure { prime?(1000000000) }
+puts Benchmark.measure { prime?(10000000) }
 
 # Benchmark.bm(27) do |bm|
 #   bm.report('Speed at 20') { prime?(20) }

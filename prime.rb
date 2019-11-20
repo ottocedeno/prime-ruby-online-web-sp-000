@@ -18,4 +18,7 @@ def prime?(test_number)
 
 end
 
-puts Benchmark.measure {prime?(100000000)}
+Benchmark.bm do |bm|
+  bm.report { prime?(20) }
+  bm.report { prime?(2000000) }
+end

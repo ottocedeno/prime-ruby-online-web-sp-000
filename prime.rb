@@ -24,11 +24,10 @@ def method_name
 end
 
 def is_prime?(test_number)
-  if test_number % 2 == 0
-    false
+  if test_number > 1
+    this
   else
-    true
-  end
+    false
 end
 
 

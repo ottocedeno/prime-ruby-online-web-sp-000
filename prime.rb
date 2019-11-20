@@ -20,19 +20,19 @@ def prime?(test_number)
 end
 
 # Work in progress below....
-def is_prime?(test_number)
-  if test_number > 1 && (test_number % 2 == 0) || test_number % 3 == 0 || test_number % 5)
-    false
-  else
-    number_range = (2..test_number-1).to_a
-
-    number_range.each do |num|
-      if test_number % num == 0
-        false
-      end
-  else
-    false
-end
+# def is_prime?(test_number)
+#   if test_number > 1 && (test_number % 2 == 0) || test_number % 3 == 0 || test_number % 5)
+#     false
+#   else
+#     number_range = (2..test_number-1).to_a
+#
+#     number_range.each do |num|
+#       if test_number % num == 0
+#         false
+#       end
+#   else
+#     false
+# end
 
 
 # Benchmark.bm(27) do |bm|

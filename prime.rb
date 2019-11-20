@@ -23,6 +23,9 @@ def method_name
 
 end
 
+def is_prime?(test_number)
+
+end
 
 # Benchmark.bm(27) do |bm|
 #   bm.report('Speed at 20') { prime?(20) }

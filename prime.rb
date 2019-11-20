@@ -18,4 +18,4 @@ def prime?(test_number)
 
 end
 
-puts Benchmark.measure {prime?(10000000)}
+puts Benchmark.measure {prime?(100000000)}

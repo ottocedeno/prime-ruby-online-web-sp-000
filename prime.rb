@@ -27,7 +27,7 @@ def is_prime?(test_number)
   if test_number > 1 && (test_number % 2 == 0) || test_number % 3 == 0 || test_number % 5)
     false
   else
-    number_range = (2..test_number)
+    number_range = (2..test_number).to_a
   else
     false
 end

@@ -28,6 +28,11 @@ def is_prime?(test_number)
     false
   else
     number_range = (2..test_number-1).to_a
+
+    number_range.each do |num|
+      if test_number % num == 0
+        false
+      end
   else
     false
 end

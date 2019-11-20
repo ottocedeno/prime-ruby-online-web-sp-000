@@ -25,7 +25,7 @@ end
 
 def is_prime?(test_number)
   if test_number > 1 && (test_number % 2 == 0) || test_number % 3 == 0 || test_number % 5)
-    this
+    false
   else
     false
 end

@@ -1,5 +1,6 @@
 require 'benchmark'
 require 'pry'
+
 def prime?(test_number)
   if test_number > 1
     number_range = (2..(test_number-1)).to_a
@@ -18,7 +19,9 @@ def prime?(test_number)
 
 end
 
+def method_name
 
+end
 
 
 # Benchmark.bm(27) do |bm|
